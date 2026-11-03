@@ -1,0 +1,45 @@
+Raw inputs for the English BombParty dictionary (bomb.party, as reconstructed in 2017).
+
+wayback_complete.txt
+  Verified 273278-word list posted by YoungsterGlenn on 2017-04-09.
+  Players using a bot checked every word. Archived because Pastebin removed the original.
+  https://www.reddit.com/r/BombParty/comments/64fhwy/the_complete_english_bombparty_dictionary/
+  http://web.archive.org/web/20201111213524/https://pastebin.com/raw/K54aJ5ez
+
+enable1.txt
+  Enhanced North American Benchmark LExicon. No 15-letter Scrabble cap, so it supplies most long and scientific words.
+  https://norvig.com/ngrams/enable1.txt
+
+sowpods.txt
+  International English Scrabble word list. Contains the American TWL list used at the time.
+  https://norvig.com/ngrams/sowpods.txt
+
+twl06.txt
+  American Tournament Word List (2006). Stored only as a tag; it is not an extra source of words.
+  https://norvig.com/ngrams/TWL06.txt
+
+crosswd.txt
+  Moby Project "113,809 official crosswords" (Project Gutenberg e-text 3201). Treated as the original BombParty dictionary.
+  Six entries were removed in-game and are not in the playable list:
+  bogys, handicrafsman, handicrafsmen, lazys, questionniare, questionniares.
+  https://www.gutenberg.org/files/3201/files/crosswd.txt
+
+names.txt
+  Moby personal names, used only as a weak proper-name hint.
+  https://www.gutenberg.org/files/3201/files/names.txt
+
+count_1w.txt
+  Google Books word frequencies compiled by Peter Norvig. Used for common/rare bands.
+  https://norvig.com/ngrams/count_1w.txt
+
+glenn_dictionary.txt
+  Earlier 273211-word subset from the same researcher. Not a build input.
+  Check file: the finished list must be a superset.
+  https://raw.githubusercontent.com/YoungsterGlenn/bpDictionaryStatistics/master/dictionary.txt
+
+moby_only_pastebin.html
+  2015 excerpt of Moby crosswords that were not in enable1 or SOWPODS. Not a build input.
+  https://pastebin.com/raw/UegdKLq8
+
+Analysis post these files were chosen from:
+  https://www.reddit.com/r/BombParty/comments/3lehxq/a_nearly_exhaustive_subset_of_the_bombparty/

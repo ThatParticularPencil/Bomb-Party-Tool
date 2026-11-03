@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+data/bombparty.sqlite.tmp
+data/bombparty.sqlite-journal
